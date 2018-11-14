@@ -140,7 +140,11 @@ let message = name => `Hello, ${name}!`;
 console.log(message('Allie'));
 
 
+<<<<<<< HEAD
 let Student = function (name, age, hometown) {
+=======
+let Student = (name, age, hometown) => {
+>>>>>>> 8fabf9fb4f34b63437cf8ca30d1019037be8de1e
   this.name = name;
   this.age = age;
   this.hometown = hometown;

@@ -1,14 +1,20 @@
 div {
   border: 3px solid red;
   height: 200px;
-  width: 200px;
+  width: 300px;
   margin: 20px;
+  float: left;
+  background: black;
 }
 
 @media screen and (min-width: 800px) {
 
   div {
     border: 5px dashed blue;
+<<<<<<< HEAD
+=======
+    background: gray;
+>>>>>>> 8fabf9fb4f34b63437cf8ca30d1019037be8de1e
   }
 
 }

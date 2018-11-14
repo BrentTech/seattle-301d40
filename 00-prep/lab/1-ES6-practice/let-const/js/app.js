@@ -6,6 +6,7 @@ const leftImage = document.getElementById('left');
 const centerImage = document.getElementById('center');
 const rightImage = document.getElementById('right');
 
+<<<<<<< HEAD
 let allProducts = [];
 const container = document.getElementById('image_container');
 const viewed = [];
@@ -15,6 +16,17 @@ const list = document.getElementById('productlist');
 let totalClicks = 0;
 const views = [];
 const votes = [];
+=======
+const allProducts = [];
+var container = document.getElementById('image_container');
+var viewed = [];
+var labels = [];
+var pics = [leftImage, centerImage, rightImage];
+var list = document.getElementById('productlist');
+var totalClicks = 0;
+var views = [];
+var votes = [];
+>>>>>>> 8fabf9fb4f34b63437cf8ca30d1019037be8de1e
 
 function Product(name) {
   this.name = name;
