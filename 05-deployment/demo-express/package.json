@@ -1,7 +1,11 @@
 {
   "name": "demo-express",
   "version": "1.0.0",
+<<<<<<< HEAD
   "description": "CF 301 demo on Express; 16 Nov 18",
+=======
+  "description": "Code 301 demo on Express; 16 Nov 2018",
+>>>>>>> a0123c5e29e32794cdd1b006366b6b123153cdbb
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -9,9 +13,16 @@
   },
   "keywords": [
     "pictures",
+<<<<<<< HEAD
     "dogs"
   ],
   "author": "Brent Woodward (via instructor Sam Hamm)",
+=======
+    "dogs",
+    "fish"
+  ],
+  "author": "Sam Hamm",
+>>>>>>> a0123c5e29e32794cdd1b006366b6b123153cdbb
   "license": "ISC",
   "dependencies": {
     "express": "^4.16.4"
